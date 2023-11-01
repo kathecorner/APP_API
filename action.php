@@ -24,14 +24,14 @@ $additional_data = [
            "ServiceID" => strval($count), //countup,10digit
 
            //"ServiceID" => "0425202323", //countup,10digit
-           "POIID" => "V400m-346777636" 
+           "POIID" => "S1F2-000158224210148" 
         ], 
         "PaymentRequest" => [
               "SaleData" => [
                  "SaleTransactionID" => [
                     "TransactionID" => 'IPP_'.date("Y/m/d H:i:s"),
                     //"TimeStamp" => $_POST['SRN']
-                    "TimeStamp" => "2023-11-01T13:48:17.455Z"
+                    "TimeStamp" => "2023-11-01T16:40:17.455Z"
                  ], 
                  "SaleToAcquirerData" => "recurringProcessingModel=UnscheduledCardOnFile&shopperReference=".$_POST['REF']."&shopperEmail=S.Hopper@example.com", 
                  "TokenRequestedType" => "Customer" 
@@ -53,7 +53,7 @@ unset($payments_data['send']);
 $final_payment_data = array_merge($payments_data, $additional_data);
 
 $curl_http_header = array(
-    "X-API-Key: AQEyhmfxL4PJahZCw0m/n3Q5qf3VaY9UCJ1+XWZe9W27jmlZiv4PD4jhfNMofnLr2K5i8/0QwV1bDb7kfNy1WIxIIkxgBw==-lUKXT9IQ5GZ6d6RH4nnuOG4Bu//eJZxvoAOknIIddv4=-<anpTLkW{]ZgGy,7",
+    'X-API-Key: AQEyhmfxLYrJaB1Cw0m/n3Q5qf3VeIpUAJZETHZ7x3yuu2dYhyWA9YeqLG626687cVnDC3UQwV1bDb7kfNy1WIxIIkxgBw==-L7o3sXBJ2BxsrbA6PsFiPnTylNzHk5cHut2Bk0T3C70=-R$Ye[9p(Z^R8<KQw',
     "Content-Type: application/json"
 );
 
