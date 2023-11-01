@@ -53,7 +53,7 @@ unset($payments_data['send']);
 $final_payment_data = array_merge($payments_data, $additional_data);
 
 $curl_http_header = array(
-    "X-API-Key: AQEyhmfxLYrJaB1Cw0m/n3Q5qf3VeIpUAJZETHZ7x3yuu2dYhyWA9YeqLG626687cVnDC3UQwV1bDb7kfNy1WIxIIkxgBw==-L7o3sXBJ2BxsrbA6PsFiPnTylNzHk5cHut2Bk0T3C70=-R$Ye[9p(Z^R8<KQw",
+    'X-API-Key: AQEyhmfxLYrJaB1Cw0m/n3Q5qf3VeIpUAJZETHZ7x3yuu2dYhyWA9YeqLG626687cVnDC3UQwV1bDb7kfNy1WIxIIkxgBw==-L7o3sXBJ2BxsrbA6PsFiPnTylNzHk5cHut2Bk0T3C70=-R$Ye[9p(Z^R8<KQw',
     "Content-Type: application/json"
 );
 
