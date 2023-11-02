@@ -38,7 +38,7 @@
       
 
       //target.value = Year + "-" + Month + "-" + Date + "T" + Hour + ":" + Min + ":455Z" + Sec;
-      target.value = Year + "-" + Month + "-" + Date + "T" + Hour + ":" + Min + ":455Z";
+      target.value = Year + "-" + Month + "-" + Date + "T" + Hour + ":" + Min + ":32.455Z";
       console.log(taget.value);
     }
 
