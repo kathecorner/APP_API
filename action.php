@@ -21,9 +21,9 @@ $additional_data = [
            "MessageCategory" => "Payment", 
            "MessageType" => "Request", 
            "SaleID" => "KenjiWTerminals", 
-           "ServiceID" => strval($count), //countup,10digit
+           //"ServiceID" => strval($count), //countup,10digit
 
-           //"ServiceID" => "0425202323", //countup,10digit
+           "ServiceID" => "0425204323", //countup,10digit
            "POIID" => "S1F2-000158224210148" 
         ], 
         "PaymentRequest" => [
